@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "builtAt": "2026-11-08T04:26:28.424944+00:00",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "sources": {
+    "new-york": {
+      "provider": "Geofabrik regional OpenStreetMap extract",
+      "url": "https://download.geofabrik.de/north-america/us/new-york-261106.osm.pbf",
+      "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "© OpenStreetMap contributors",
+      "pbfBytes": 498630919,
+      "sha256": "78ce3477eee00f3987b0850a53d8ad16aaff33e50f118905b6a90e52e3248cd6",
+      "snapshot": "new-york-261106.osm.pbf",
+      "extractedAt": "2026-11-08T04:26:28.424944+00:00"
+    },
+    "utah": {
+      "provider": "Geofabrik regional OpenStreetMap extract",
+      "url": "https://download.geofabrik.de/north-america/us/utah-261107.osm.pbf",
+      "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "© OpenStreetMap contributors",
+      "pbfBytes": 171512584,
+      "sha256": "f752d5c9d89e24432adc0fd549eacbfe9127c522989b46f4323abdba08bd7c51",
+      "snapshot": "utah-261107.osm.pbf",
+      "extractedAt": "2026-11-08T04:26:28.424944+00:00"
+    }
+  },
+  "areas": [
+    {
+      "id": "midtown-manhattan",
+      "name": "Midtown Manhattan, New York",
+      "bbox": [
+        -73.998,
+        40.748,
+        -73.973,
+        40.768
+      ],
+      "asset": "midtown-manhattan.json",
+      "source": "OpenStreetMap / Geofabrik",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "buildings": 3836,
+      "roads": 5088,
+      "bytes": 2331309,
+      "region": "new-york"
+    },
+    {
+      "id": "mount-kisco",
+      "name": "Mount Kisco, New York",
+      "bbox": [
+        -73.746,
+        41.193,
+        -73.708,
+        41.217
+      ],
+      "asset": "mount-kisco.json",
+      "source": "OpenStreetMap / Geofabrik",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "buildings": 2647,
+      "roads": 1161,
+      "bytes": 1084261,
+      "region": "new-york"
+    },
+    {
+      "id": "moab",
+      "name": "Moab, Utah",
+      "bbox": [
+        -109.573,
+        38.558,
+        -109.526,
+        38.589
+      ],
+      "asset": "moab.json",
+      "source": "OpenStreetMap / Geofabrik",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "buildings": 2212,
+      "roads": 1288,
+      "bytes": 860636,
+      "region": "utah"
+    }
+  ],
+  "processing": "Closed building ways and tagged highway ways selected from pinned Geofabrik OSM PBF snapshots; road centerlines clipped to each package bbox; render-relevant tags retained; intersecting building footprints remain uncut. Multipolygon building relations are not included."
+}
