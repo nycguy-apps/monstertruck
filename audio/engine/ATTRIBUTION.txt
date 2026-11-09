@@ -1,0 +1,28 @@
+Rumble Roam recorded engine samples
+
+1) Generic V8 Engine Sound — Acc_05570.wav and Dec_05581.wav
+   Author: DerMeehdrescher / Meehdrescher Studios
+   Source: https://opengameart.org/content/generic-v8-engine-sound
+   Original package: https://opengameart.org/sites/default/files/genericv8sound.zip
+   License: Creative Commons Attribution-ShareAlike 4.0 International
+   License URL: https://creativecommons.org/licenses/by-sa/4.0/
+   Changes: the original WAV recordings are included unchanged. Runtime loop
+   playback uses a short in-memory wrap crossfade; the audio is not pitch-shifted
+   beyond a small, RPM-linked range.
+
+2) engine2_idle_loop.wav — ReadeOnly
+   Source: https://freesound.org/people/ReadeOnly/sounds/186939/
+   License: CC0 1.0 / Public Domain
+   Browser asset: readeonly-engine-idle-loop.mp3 (Freesound HQ preview, loudness
+   normalized to -20 LUFS / -2 dBTP; encoded stereo 192 kbps MP3).
+
+3) Big Block V8 Rev.mp3 — Henaway
+   Source: https://freesound.org/people/Henaway/sounds/127980/
+   License: CC0 1.0 / Public Domain
+   Description: recorded Ford 460 V8 rev.
+   Browser asset: henaway-big-block-v8-rev.mp3 (Freesound HQ preview); used as a
+   short, situational high-load / nitro recording, not as the continuous idle.
+
+The separately licensed CC BY-SA V8 recordings remain identifiable and credited
+here. All Freesound recordings are CC0. No personal or commercial music files are
+included in this directory.
